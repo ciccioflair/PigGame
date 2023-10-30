@@ -120,7 +120,7 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 10) {
       playing = false;
       winAudio.play();
       document.getElementById(`score--${activePlayer}`).classList.add('pulse');

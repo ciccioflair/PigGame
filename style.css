@@ -211,7 +211,6 @@ main {
 
 .player--winner {
   position: absolute;
-  width: 100%;
   font-size: 8rem;
   top: 30%;
   color: #C7365F;
